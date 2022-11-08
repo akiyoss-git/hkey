@@ -26,7 +26,7 @@ for event in longpoll.listen():
         sender = event.user_id
 
         if reseived_message == 'начать':      #этап 1
-            write_message(sender, 'Переходи по ссылке с качай файл для задания!\n https://drive.google.com/file/d/1Nis4XjedUJGILMXWPrcMaqWjoDx-21dV/view \nНапиши слово, которое перевернули')
+            write_message(sender, 'Переходи по ссылке с качай файл для задания!\n https://drive.google.com/drive/folders/16jNXjM4Di9SV-jI32J_jdmUm8m1TddCq?usp=sharing \nНапиши слово, которое перевернули')
 
         elif reseived_message == 'тысяча и одна папка':      #этап 2
             write_message(sender, 'Переходи по ссылке с качай файл для задания!\n https://drive.google.com/drive/folders/1vjtFi8FRMsFMFIUDAml3WUx_ODXx2hkW?usp=share_link')
